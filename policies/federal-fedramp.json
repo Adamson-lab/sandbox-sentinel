@@ -1,0 +1,11 @@
+{
+  "name": "federal (FedRAMP High / GovCloud example)",
+  "default_ttl_hours": 8,
+  "max_ttl_hours": 48,
+  "max_budget_usd": 300,
+  "freeze_at": 0.95,
+  "kill_at": 1.0,
+  "require_ticket": true,
+  "allowed_regions": ["us-gov-west-1", "us-gov-east-1"],
+  "allowed_types": {"m5.xlarge": 0.23, "r5.2xlarge": 0.60}
+}

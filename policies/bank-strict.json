@@ -1,0 +1,19 @@
+{
+  "name": "bank-strict (SOX / DORA / PRA-aligned example)",
+  "default_ttl_hours": 4,
+  "max_ttl_hours": 24,
+  "max_budget_usd": 150,
+  "warn_at": [0.4, 0.7, 0.9],
+  "freeze_at": 0.95,
+  "kill_at": 1.0,
+  "frozen_grace_hours": 1,
+  "predictive_horizon_ticks": 5,
+  "max_extensions": 1,
+  "max_extension_hours": 8,
+  "max_active_per_owner": 1,
+  "cost_center_cap_usd": 1500,
+  "require_ticket": true,
+  "four_eyes_extension": true,
+  "allowed_regions": ["eu-west-1"],
+  "allowed_types": {"t3.medium": 0.0416, "m5.xlarge": 0.192}
+}

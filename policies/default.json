@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "default_ttl_hours": 8,
+  "max_ttl_hours": 72,
+  "max_budget_usd": 500,
+  "warn_at": [0.5, 0.8],
+  "freeze_at": 1.0,
+  "kill_at": 1.1
+}

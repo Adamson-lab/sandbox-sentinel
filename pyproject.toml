@@ -1,0 +1,10 @@
+[project]
+name = "sandbox-sentinel"
+version = "1.0.0"
+description = "Guardrails, auto-expiry and a budget kill-switch for cloud sandboxes"
+requires-python = ">=3.10"
+dependencies = []
+[project.optional-dependencies]
+aws = ["boto3"]
+[project.scripts]
+sentinel = "sentinel.cli:main"
